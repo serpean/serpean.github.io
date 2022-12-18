@@ -7,8 +7,8 @@ author:     "Sergio Pérez"
 catalog: false
 header-style: text
 tags:
-  - sap_commerce
-  - kibana
+  - Sap Commerce
+  - Kibana
 ---
 
 SAP Commerce is a platform for building e-commerce websites and online stores. Kibana is a visualization tool for analyzing and understanding data stored in Elasticsearch, which is used to store log data in SAP Commerce.
@@ -19,7 +19,7 @@ In Kibana, you can use filters to narrow down your search results and find speci
 
 ## Access Kibana
 
-1. Login in SAP portal (https://portal.commerce.ondemand.com/) and select the environment which we want to inspect logs.
+1. Login in SAP portal (<https://portal.commerce.ondemand.com/>) and select the environment which we want to inspect logs.
 sear
 2. Open logging link clicking the blue url. As a result Kibana will be open in a new browser tab.:
    ![Kibana Dashboard](/img/in-post/post-sap-commerce-kibana-101/kibana-dashboard.png)
@@ -119,6 +119,10 @@ To use the filters in Kibana to search for specific log entries, you can follow 
 The resulting search results should show all log entries that follows the previous criteria, as shown in the following screenshot:
 
 ![Search Logs](/img/in-post/post-sap-commerce-kibana-101/searching-results.png)
+
+Kibana is a data visualization and analysis tool used to analyze and understand data stored in Elasticsearch. It is commonly used to store log data, and can be accessed through the SAP portal by logging in and selecting the environment to inspect, and then clicking on the logging link.
+
+Kibana is a powerful tool for analyzing and understanding data stored in Elasticsearch, and can be useful for troubleshooting issues and identifying patterns in log data within SAP Commerce.
 
 ## References
 
