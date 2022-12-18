@@ -2,7 +2,7 @@
 layout:     post
 title:      "SAP Commerce WSL Setup"
 subtitle:   "Run Linux to compile and windows for everything else."
-date:       2022-07-05 12:00:00
+date:       2022-02-03 12:00:00
 author:     "Sergio Pérez"
 catalog: false
 header-style: text
