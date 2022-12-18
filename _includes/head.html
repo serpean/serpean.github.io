@@ -69,4 +69,18 @@
     <!-- Google AdSense -->
     <script data-ad-client="ca-pub-6487568398225121" async
         src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
+    <!-- Google tag (gtag.js) -->
+    </script>
+        {% if site.ga_track_id %}
+        <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.ga_track_id }}"></script>
+        <script>
+            var _gaId = '{{ site.ga_track_id }}';
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+    
+            gtag('config', _gaId);
+        </script>
+        {% endif %}
 </head>
