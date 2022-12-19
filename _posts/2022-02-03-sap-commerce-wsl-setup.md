@@ -54,18 +54,18 @@ In this tutorial, we will cover how to configure the .bashrc file in your WSL2 e
 
 1. Add the following variable above SDKMAN configuration (`~/.bashrc`)
 
-```bash
-export LIBGL_ALWAYS_INDIRECT=1
-export LC_ALL=C
-# xServer Configuration
-export DISPLAY=$(cat /etc/resolv.conf | grep nameserver | awk '{print $2; exit;}'):0.0
-```
+    ```bash
+    export LIBGL_ALWAYS_INDIRECT=1
+    export LC_ALL=C
+    # xServer Configuration
+    export DISPLAY=$(cat /etc/resolv.conf | grep nameserver | awk '{print $2; exit;}'):0.0
+    ```
 
 2. Reload your terminal session:
 
-```bash
-source ~/.bashrc
-```
+    ```bash
+    source ~/.bashrc
+    ```
 
 ## Install & Configure XServer
 
